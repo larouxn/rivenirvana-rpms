@@ -1,8 +1,8 @@
-%global commit 5e9d0456745efaf13cc6336e7d557583377ada28
+%global commit 76890233d759199f50ad3bdb57a0c0988e96fc44
 %global shortc %(c=%{commit}; echo ${c:0:7})
 
 Name:           nvtop
-Version:        3.3.1
+Version:        3.3.2
 Release:        1.g%{shortc}%{?dist}
 Summary:        GPU & Accelerator process monitoring for AMD, Apple, Huawei, Intel, NVIDIA and Qualcomm
 
