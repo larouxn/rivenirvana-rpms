@@ -5,6 +5,10 @@ serifs = "sans"
 noCvSs = false
 exportGlyphNames = true
 
+[buildPlans.Iosevkat.variants.design]
+j = "flat-hook-serifless"
+percent = "rings-continuous-slash"
+
 [buildPlans.Iosevkat.weights.Regular]
 shape = 400
 menu = 400
